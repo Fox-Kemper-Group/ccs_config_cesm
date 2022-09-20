@@ -345,7 +345,7 @@
   </domain>
   <domain name="SimpleR1v1">
     <nx>1001</nx> <ny>1001</ny>
-    <mesh>/glade/u/phall1/CESM/grids/ESMF_mesh_1001x1001_fbot_reentrant.nc</mesh>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_1001x1001_fbot_reentrant.nc</mesh>
     <desc>Simple Re-entrant Cartesian grid generated with mom6_bathy for high-resolution regional modeling</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
