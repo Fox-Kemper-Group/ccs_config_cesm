@@ -1354,7 +1354,7 @@
   </model_grid>
 
   <!-- Custom grids --!>
-  <model_grid alias="T62_sr1v1" not_compset="_CAM" >
+  <model_grid alias="T62_SR1v1" not_compset="_CAM" >
     <grid name="atm">T62</grid>
     <grid name="lnd">T62</grid>
     <grid name="ocnice">SimpleR1v1</grid>
