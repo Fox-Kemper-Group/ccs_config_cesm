@@ -343,6 +343,12 @@
     <desc>tripole v1 1-deg grid: testing proxy for high-res tripole ocean grids- do not use for scientific experiments</desc>
     <support>Experimental tripole ocean grid</support>
   </domain>
+  <domain name="SimpleR1v1">
+    <nx>540</nx> <ny>458</ny>
+    <mesh>$DIN_LOC_ROOT/share/meshes/tx0.66v1_190314_ESMFmesh.nc</mesh>
+    <desc>Simple Re-entrant Cartesian grid generated with mom6_bathy for high-resolution regional modeling</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
 
   <!-- ======================================================== -->
   <!-- ROF domains -->
