@@ -1360,6 +1360,12 @@
     <grid name="ocnice">SimpleR1v1</grid>
   </model_grid>
 
+  <model_grid alias="T62_SO1v1" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">SimpleO1v1</grid>
+  </model_grid>
+
   <model_grid alias="T62_s1v1" not_compset="_CAM">
     <grid name="atm">T62</grid>
     <grid name="lnd">T62</grid>
