@@ -355,6 +355,12 @@
     <desc>Simple open-boundary Cartesian grid generated with mom6_bathy for high-resolution regional modeling</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
+  <domain name="SimpleOD1v1">
+    <nx>1001</nx> <ny>1001</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_1001x1001_fbot_open_deg.nc</mesh>
+    <desc>Simple open-boundary Cartesian grid (deg) generated with mom6_bathy for high-resolution regional modeling</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
   <domain name="simple1v1">
     <nx>100</nx> <ny>50</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_fbot.nc</mesh>
