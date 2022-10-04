@@ -364,7 +364,13 @@
   <domain name="simple1v1">
     <nx>100</nx> <ny>50</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_fbot.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
+    <desc>A simple mesh generated with mom6_bathy, 100x50 deg @ 1.0 deg</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple1v2">
+    <nx>100</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s1v2.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 10x5 deg @ 0.1 deg</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
 
