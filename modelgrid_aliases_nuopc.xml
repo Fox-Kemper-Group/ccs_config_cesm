@@ -1384,4 +1384,40 @@
     <grid name="ocnice">simple1v2</grid>
   </model_grid>
 
+  <model_grid alias="T62_s1v3" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">simple1v3</grid>
+  </model_grid>
+
+  <model_grid alias="T62_s1v4" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">simple1v4</grid>
+  </model_grid>
+
+  <model_grid alias="T62_s2v1" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">simple2v1</grid>
+  </model_grid>
+
+  <model_grid alias="T62_s2v2" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">simple2v2</grid>
+  </model_grid>
+
+  <model_grid alias="T62_s2v3" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">simple2v3</grid>
+  </model_grid>
+
+  <model_grid alias="T62_s2v4" not_compset="_CAM">
+    <grid name="atm">T62</grid>
+    <grid name="lnd">T62</grid>
+    <grid name="ocnice">simple2v4</grid>
+  </model_grid>
+
 </grids>
