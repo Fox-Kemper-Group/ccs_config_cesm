@@ -373,7 +373,42 @@
     <desc>A simple mesh generated with mom6_bathy, 10x5 deg @ 0.1 deg</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
-
+  <domain name="simple1v3">
+    <nx>100</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s1v3.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 1.0x0.5 deg @ 0.01 deg</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple1v4">
+    <nx>100</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s1v4.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 0.1x0.05 deg @ 0.001 deg</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v1">
+    <nx>100</nx> <ny>100</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s2v1.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 10x5 deg @ 0.1 deg</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v2">
+    <nx>100</nx> <ny>100</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s2v2.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 10x5 deg @ 0.1 deg</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v3">
+    <nx>500</nx> <ny>500</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s2v3.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 10x5 deg @ 0.1 deg</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v4">
+    <nx>500</nx> <ny>500</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s2v4.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 10x5 deg @ 0.1 deg</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
   <!-- ======================================================== -->
   <!-- ROF domains -->
   <!-- ======================================================== -->
