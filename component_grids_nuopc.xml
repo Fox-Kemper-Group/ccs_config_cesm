@@ -433,6 +433,12 @@
     <desc>A simple mesh generated with mom6_bathy, 0.5x0.5 deg @ 0.01 deg, maxdepth=100m</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
+  <domain name="simple3v4a">
+    <nx>100</nx> <ny>100</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/ESMF_mesh_s3v4a.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy, 0.5x0.5 deg @ 0.005 deg, maxdepth=100m</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
   <!-- ======================================================== -->
   <!-- ROF domains -->
   <!-- ======================================================== -->
