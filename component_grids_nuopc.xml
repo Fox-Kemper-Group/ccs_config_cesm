@@ -439,16 +439,22 @@
     <desc>A simple mesh generated with mom6_bathy, 0.5x0.5 deg @ 0.005 deg, maxdepth=100m</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
+  <domain name="sasip1_50">
+    <nx>50</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip1/sasip1_50/ESMF_mesh_sasip1_50.nc</mesh>
+    <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=50, maxdepth=100m, re-entrant X</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
   <domain name="sasip1_100">
     <nx>100</nx> <ny>100</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/sasip1/sasip1_100/ESMF_mesh_sasip1_100.nc</mesh>
-    <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=500, maxdepth=100m, re-entrant X</desc>
+    <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=100, maxdepth=100m, re-entrant X</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
   <domain name="sasip1_200">
     <nx>200</nx> <ny>200</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/sasip1/sasip1_200/ESMF_mesh_sasip1_200.nc</mesh>
-    <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=500, maxdepth=100m, re-entrant X</desc>
+    <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=200, maxdepth=100m, re-entrant X</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
   <domain name="sasip1_500">
