@@ -468,7 +468,19 @@
     <mesh>/glade/u/home/paulhall/CESM/grids/sasip1/sasip1_1000/ESMF_mesh_sasip1_1000.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=1000, maxdepth=100m, re-entrant X</desc>
     <support>Experimental for MOM6 experiments</support>
-  </domain>  
+  </domain> 
+  <domain name="sasip1_n50">
+    <nx>50</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip1/sasip1_n50/ESMF_mesh_sasip1_n50.nc</mesh>
+    <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=50, maxdepth=75m</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="sasip1_n50_rx">
+    <nx>50</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip1/sasip1_n50_rx/ESMF_mesh_sasip1_n50_rx.nc</mesh>
+    <desc>0.5°x2° domain centered on 75.5N,215E, nx=ny=50, maxdepth=74m, re-entrant X</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain> 
   <!-- ======================================================== -->
   <!-- ROF domains -->
   <!-- ======================================================== -->
