@@ -389,7 +389,12 @@
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~50m, maxdepth=75m, re-entrant in X-dir</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
-
+  <domain name="simple1v1">
+    <nx>100</nx> <ny>50</ny>
+    <mesh>/glade/u/home/altuntas/mom6_bathy/notebooks/ESMF_mesh_fbot.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
 
   <!-- ======================================================== -->
   <!-- ROF domains -->
