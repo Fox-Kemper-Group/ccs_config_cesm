@@ -379,13 +379,13 @@
   </domain>
   <domain name="sasip_n1000">
     <nx>1000</nx> <ny>1000</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n1000/ESMF_mesh_sasip_n1000.cdf</mesh>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n1000/ESMF_mesh_sasip_n1000.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~50m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
   <domain name="sasip_n1000_rx">
     <nx>1000</nx> <ny>1000</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n1000_rx/ESMF_mesh_sasip_n1000_rx.cdf</mesh>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n1000_rx/ESMF_mesh_sasip_n1000_rx.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~50m, maxdepth=75m, re-entrant in X-dir</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
