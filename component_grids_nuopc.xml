@@ -391,10 +391,18 @@
   </domain>
   <domain name="simple1v1">
     <nx>100</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s1v1/ESMF_mesh_simple1v1.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+<!--  <domain name="simple1v1">
+    <nx>100</nx> <ny>50</ny>
     <mesh>/glade/u/home/altuntas/mom6_bathy/notebooks/ESMF_mesh_fbot.nc</mesh>
     <desc>A simple mesh generated with mom6_bathy</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
+-->
+
 
   <!-- ======================================================== -->
   <!-- ROF domains -->
