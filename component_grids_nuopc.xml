@@ -402,6 +402,49 @@
     <support>Experimental for MOM6 experiments</support>
   </domain>
 
+  <domain name="simple1v2">
+    <nx>1000</nx> <ny>500</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s1v2/ESMF_mesh_simple1v2.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v1">
+    <nx>10</nx> <ny>5</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v1/ESMF_mesh_simple2v1.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v2">
+    <nx>100</nx> <ny>50</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v2/ESMF_mesh_simple2v2.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v3">
+    <nx>1000</nx> <ny>500</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v3/ESMF_mesh_simple2v3.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple2v4">
+    <nx>10000</nx> <ny>5000</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v4/ESMF_mesh_simple2v4.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple3v4">
+    <nx>500</nx> <ny>500</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s3v4/ESMF_mesh_simple3v4.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+  <domain name="simple3v5">
+    <nx>1000</nx> <ny>1000</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s3v5/ESMF_mesh_simple3v5.nc</mesh>
+    <desc>A simple mesh generated with mom6_bathy</desc>
+    <support>Experimental for MOM6 experiments</support>
+  </domain>
+
   <!-- ======================================================== -->
   <!-- ROF domains -->
   <!-- ======================================================== -->
