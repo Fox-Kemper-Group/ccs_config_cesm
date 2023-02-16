@@ -444,7 +444,30 @@
     <desc>A simple mesh generated with mom6_bathy</desc>
     <support>Experimental for MOM6 experiments</support>
   </domain>
-
+  <domain name="sasip0_n10">
+    <nx>10</nx> <ny>10</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n10/ESMF_mesh_sasip0_n10.nc</mesh>
+    <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~5000m, maxdepth=75m</desc>
+    <support>Experimental for SASIP project high-resolution process models in arctic</support>
+  </domain>
+  <domain name="sasip0_n100">
+    <nx>100</nx> <ny>100</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n100/ESMF_mesh_sasip0_n100.nc</mesh>
+    <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~500m, maxdepth=75m</desc>
+    <support>Experimental for SASIP project high-resolution process models in arctic</support>
+  </domain>
+  <domain name="sasip0_n500">
+    <nx>500</nx> <ny>500</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n500/ESMF_mesh_sasip0_n500.nc</mesh>
+    <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~100m, maxdepth=75m</desc>
+    <support>Experimental for SASIP project high-resolution process models in arctic</support>
+  </domain>
+  <domain name="sasip0_n1000">
+    <nx>1000</nx> <ny>1000</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n1000/ESMF_mesh_sasip0_n1000.nc</mesh>
+    <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~50m, maxdepth=75m</desc>
+    <support>Experimental for SASIP project high-resolution process models in arctic</support>
+  </domain>
   <!-- ======================================================== -->
   <!-- ROF domains -->
   <!-- ======================================================== -->
