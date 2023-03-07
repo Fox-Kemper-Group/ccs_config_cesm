@@ -390,6 +390,12 @@
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~500m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
+  <domain name="sasip_n100_rx">
+    <nx>100</nx> <ny>100</ny>
+    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n100_rx/ESMF_mesh_sasip_n100i_rx.nc</mesh>
+    <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~500m, maxdepth=75m</desc>
+    <support>Experimental for SASIP project high-resolution process models in arctic</support>
+  </domain>
   <domain name="sasip_n500">
     <nx>500</nx> <ny>500</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n500/ESMF_mesh_sasip_n500.nc</mesh>
