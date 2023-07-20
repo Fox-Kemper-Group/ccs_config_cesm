@@ -378,28 +378,16 @@
     <support>Experimental tripole ocean grid</support>
   </domain>
 
-  <domain name="sasip_n10">
-    <nx>10</nx> <ny>10</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n10/ESMF_mesh_sasip_n10.nc</mesh>
-    <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~5000m, maxdepth=75m</desc>
-    <support>Experimental for SASIP project high-resolution process models in arctic</support>
-  </domain>
   <domain name="sasip_n100">
     <nx>100</nx> <ny>100</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n100/ESMF_mesh_sasip_n100.nc</mesh>
+    <mesh>/glade/u/home/paulhall/CESM/SASIP/grids/n100/ESMF_mesh_sasip_n100.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~500m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
   <domain name="sasip_n100_rx">
     <nx>100</nx> <ny>100</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n100_rx/ESMF_mesh_sasip_n100i_rx.nc</mesh>
+    <mesh>/glade/u/home/paulhall/CESM/SASIP/grids/n100rx/ESMF_mesh_sasip_n100rx.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~500m, maxdepth=75m</desc>
-    <support>Experimental for SASIP project high-resolution process models in arctic</support>
-  </domain>
-  <domain name="sasip_n500">
-    <nx>500</nx> <ny>500</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n500/ESMF_mesh_sasip_n500.nc</mesh>
-    <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~100m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
   <domain name="sasip_n1000">
@@ -408,96 +396,23 @@
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~50m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
-
   <domain name="sasip_n1000_rx">
     <nx>1000</nx> <ny>1000</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/sasip/sasip_n1000_rx/ESMF_mesh_sasip_n1000_rx.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~50m, maxdepth=75m, re-entrant in X-dir</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
-i
-  <domain name="simple1v1">
-    <nx>100</nx> <ny>50</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s1v1/ESMF_mesh_simple1v1.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple1v1_rx">
-    <nx>100</nx> <ny>50</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s1v1_rx/ESMF_mesh_simple1v1_rx.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple1v2">
-    <nx>1000</nx> <ny>500</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s1v2/ESMF_mesh_simple1v2.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple2v1">
-    <nx>10</nx> <ny>5</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v1/ESMF_mesh_simple2v1.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple2v2">
-    <nx>100</nx> <ny>50</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v2/ESMF_mesh_simple2v2.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple2v3">
-    <nx>1000</nx> <ny>500</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v3/ESMF_mesh_simple2v3.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple2v4">
-    <nx>10000</nx> <ny>5000</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s2v4/ESMF_mesh_simple2v4.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple3v4">
-    <nx>500</nx> <ny>500</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s3v4/ESMF_mesh_simple3v4.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="simple3v5">
-    <nx>1000</nx> <ny>1000</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/simple/s3v5/ESMF_mesh_simple3v5.nc</mesh>
-    <desc>A simple mesh generated with mom6_bathy</desc>
-    <support>Experimental for MOM6 experiments</support>
-  </domain>
-  <domain name="sasip0_n10">
-    <nx>10</nx> <ny>10</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n10/ESMF_mesh_sasip0_n10.nc</mesh>
-    <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~5000m, maxdepth=75m</desc>
-    <support>Experimental for SASIP project high-resolution process models in arctic</support>
-  </domain>
+
   <domain name="sasip0_n100">
     <nx>100</nx> <ny>100</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n100/ESMF_mesh_sasip0_n100.nc</mesh>
     <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~500m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
-  <domain name="sasip0_n100a">
-    <nx>100</nx> <ny>100</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n100a/ESMF_mesh_sasip0_n100a.nc</mesh>
-    <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~500m, maxdepth=75m, shallow shelf on western boundary</desc>
-    <support>Experimental for SASIP project high-resolution process models in arctic</support>
-  </domain>
   <domain name="sasip0_n100_rx">
     <nx>100</nx> <ny>100</ny>
     <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n100_rx/ESMF_mesh_sasip0_n100_rx.nc</mesh>
     <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~500m, maxdepth=75m, re-entrant X</desc>
-    <support>Experimental for SASIP project high-resolution process models in arctic</support>
-  </domain>
-  <domain name="sasip0_n500">
-    <nx>500</nx> <ny>500</ny>
-    <mesh>/glade/u/home/paulhall/CESM/grids/sasip0/sasip0_n500/ESMF_mesh_sasip0_n500.nc</mesh>
-    <desc>0.5°x0.5° domain centered on 0.25N,215E, dx=dy=~100m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
   <domain name="sasip0_n1000">
