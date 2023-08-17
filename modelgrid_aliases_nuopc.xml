@@ -1461,25 +1461,4 @@
     <grid name="ocnice">sasip_n1000rx</grid>
   </model_grid>
 
-  <model_grid alias="T62_sasip0_n100" >
-    <grid name="atm">T62</grid>
-    <grid name="lnd">T62</grid>
-    <grid name="ocnice">sasip0_n100</grid>
-  </model_grid>
-  <model_grid alias="T62_sasip0_n100rx" >
-    <grid name="atm">T62</grid>
-    <grid name="lnd">T62</grid>
-    <grid name="ocnice">sasip0_n100rx</grid>
-  </model_grid>
-  <model_grid alias="T62_sasip0_n1000" >
-    <grid name="atm">T62</grid>
-    <grid name="lnd">T62</grid>
-    <grid name="ocnice">sasip0_n1000</grid>
-  </model_grid>
-  <model_grid alias="T62_sasip0_n1000rx" >
-    <grid name="atm">T62</grid>
-    <grid name="lnd">T62</grid>
-    <grid name="ocnice">sasip0_n1000rx</grid>
-  </model_grid>
-
 </grids>
