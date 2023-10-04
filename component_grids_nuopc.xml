@@ -392,25 +392,25 @@
 
   <domain name="sasip_n100">
     <nx>100</nx> <ny>100</ny>
-    <mesh>/glade/u/home/paulhall/CESM/SASIP/grids/n100/ESMF_mesh_sasip_n100.nc</mesh>
+    <mesh>$DIN_LOC_ROOT/sasip/grids/n100/ESMF_mesh_sasip_n100.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~500m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
   <domain name="sasip_n100rx">
     <nx>100</nx> <ny>100</ny>
-    <mesh>/glade/u/home/paulhall/CESM/SASIP/grids/n100rx/ESMF_mesh_sasip_n100rx.nc</mesh>
+    <mesh>$DIN_LOC_ROOT/sasip/grids/n100rx/ESMF_mesh_sasip_n100rx.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~500m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
   <domain name="sasip_n1000">
     <nx>1000</nx> <ny>1000</ny>
-    <mesh>/glade/u/home/paulhall/CESM/SASIP/grids/n1000/ESMF_mesh_sasip_n1000.nc</mesh>
+    <mesh>$DIN_LOC_ROOT/sasip/grids/n1000/ESMF_mesh_sasip_n1000.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~50m, maxdepth=75m</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
   <domain name="sasip_n1000rx">
     <nx>1000</nx> <ny>1000</ny>
-    <mesh>/glade/u/home/paulhall/CESM/SASIP/grids/n1000rx/ESMF_mesh_sasip_n1000rx.nc</mesh>
+    <mesh>$DIN_LOC_ROOT/sasip/grids/n1000rx/ESMF_mesh_sasip_n1000rx.nc</mesh>
     <desc>0.5°x2° domain centered on 75.5N,215E, dx=dy=~50m, maxdepth=75m, re-entrant in X-dir</desc>
     <support>Experimental for SASIP project high-resolution process models in arctic</support>
   </domain>
